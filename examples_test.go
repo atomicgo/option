@@ -1,16 +1,17 @@
-package template_test
+package option_test
 
 import (
-	"atomicgo.dev/template"
 	"fmt"
+
+	"atomicgo.dev/option"
 )
 
 func Example_demo() {
-	fmt.Println(template.HelloWorld())
+	fmt.Println(option.HelloWorld())
 	// Output: Hello, World!
 }
 
 func ExampleHelloWorld() {
-	fmt.Println(template.HelloWorld())
+	fmt.Println(option.HelloWorld())
 	// Output: Hello, World!
 }

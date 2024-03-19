@@ -1,4 +1,4 @@
-package template
+package option
 
 // HelloWorld returns `Hello, World!`.
 func HelloWorld() string {
