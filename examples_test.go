@@ -7,12 +7,12 @@ import (
 )
 
 type Person struct {
-  Name option.StringOption
-  Age  option.IntOption
+	Name option.StringOption
+	Age  option.IntOption
 }
 
 func Example_demo() {
-  
+
 }
 
 func ExampleHelloWorld() {
