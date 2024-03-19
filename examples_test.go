@@ -6,9 +6,13 @@ import (
 	"atomicgo.dev/option"
 )
 
+type Person struct {
+  Name option.StringOption
+  Age  option.IntOption
+}
+
 func Example_demo() {
-	fmt.Println(option.HelloWorld())
-	// Output: Hello, World!
+  
 }
 
 func ExampleHelloWorld() {
